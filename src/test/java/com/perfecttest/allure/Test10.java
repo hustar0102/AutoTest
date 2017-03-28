@@ -18,6 +18,7 @@ public class Test10  extends TestCase{
 			driver.findElement(By.id("loginpass2")).sendKeys("123");
 			driver.findElement(By.xpath("//*[@id='btnLogin']/div")).click();
 			driver.findElement(By.xpath("//*[@id='uie_menu_func']/a/span/span[1]")).click();
+			System.out.println(22);
 	    }  
 
 }
